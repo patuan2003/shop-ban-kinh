@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        .ml-90{
+            margin-left: 90px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <h1 class="text-center mb-4">Login</h1>
+            <form th:action="@{/register/save}" th:method="post" th:object="${register}">
+                <label>Username:</label>
+                <input type="text" th:field="*{account}" name="username" class="form-control"/>
+                <span class="text-danger" th:if="${#fields.hasErrors('account')}" th:errors="*{account}"></span>
+                <br>
+                <label>Password:</label>
+                <input type="password" th:field="*{password}" class="form-control"/>
+                <span class="text-danger" th:if="${#fields.hasErrors('password')}" th:errors="*{password}"></span>
+                <br>
+
+                <label>Confirm password:</label>
+                <input type="password" th:field="*{confirmPassword}" class="form-control"/>
+                <span class="text-danger" th:if="${#fields.hasErrors('confirmPassword')}" th:errors="*{confirmPassword}"></span>
+                <br>
+                <span class="text-danger" th:text="${errorPass}"></span>
+                <br>
+                <button type="submit" class="btn btn-success ml-90">Register</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", Sans-serif;
+}
+
+header {
+    margin-top: 15px;
+}
+
+.header_menu ul li a {
+    margin-top: 15px;
+    color: #414141;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.4em;
+}
+
+.header_menu ul li a:hover {
+    color: #81c8c2;
+}
+
+.header_icon {
+    margin-top: 15px;
+}
+
+.header_icon ul li a i {
+    font-size: 16px;
+    color: #414141;
+}
+.cart-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #81c8c2;
+    color: white;
+    font-size: 10px;
+    padding: 2px 5px;
+    border-radius: 50%;
+}
+
+.banner img {
+    height: auto;
+    max-width: 100%;
+}
+
+.line {
+    margin-top: 10px;
+    height: 50px;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.banner_3 {
+    margin-top: 30px;
+}
+
+.banner_3 img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 24px 24px 24px 24px;
+}
+
+footer {
+    background-color: #f3f6fa;
+    height: 400px;
+    margin-top: 100px;
+}
+.footer-all {
+    padding-top: 100px;
+}
+.footer__first > p {
+    font-size: 16px;
+    color: #1c1c1c;
+    line-height: 36px;
+}
+
+.footer__second > h6 {
+    font-weight: 700;
+    font-size: 20px;
+}
+.footer__second-left {
+    float: left;
+    width: 45%;
+}
+.footer__second-left a {
+    text-decoration: none;
+    line-height: 33px;
+    color: #1c1c1c;
+    font-size: 1rem;
+}
+.footer__second-right {
+    width: 50%;
+    float: right;
+}
+.footer__second-right a {
+    text-decoration: none;
+    line-height: 33px;
+    color: #1c1c1c;
+    font-size: 1rem;
+}
+.footer__third > h6 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer__third .logo {
+    margin-top: 15px;
+}
+
+.footer__third .logo a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.card {
+    margin-top: 50px;
+    border-radius: 16px;
+}
+.card img {
+    border-radius: 16px 16px 0 0;
+}
+
+.card-name {
+    font-weight: 700;
+    font-size: 20px;
+}
+.product {
+    margin-left: 130px !important;
+}
+.btn-show {
+    margin-top: 30px;
+    margin-left: 550px;
+}
+.btn-show a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    width: 10rem;
+    height: 3rem;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #000000;
+    color: #ffffff;
+    font-variant: small-caps;
+    line-height: 3rem; /* căn giữa theo chiều dọc */
+}
+
+.banner_qc_title {
+    color: #81c8c2;
+}
+
+.qc-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 400px;
+}
+
+.banner_qc {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    height: 1000px;
+}
+.qc-logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #81c8c2;
+    margin-top: 50px;
+}
+
+.qc-logo img {
+    object-fit: cover;
+}
+
+.qc-title {
+    /* margin-bottom: 500px; */
+    margin-left: 160px;
+    color: #81c8c2;
+}
+.qc-text {
+    font-size: 16px;
+    margin-bottom: 300px;
+}
+
+.dropcustom {
+    color: #1c1c1c;
+}
+.dropcustom:hover {
+    color: #81c8c2;
+}
+
+
